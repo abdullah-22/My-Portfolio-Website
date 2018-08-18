@@ -1,0 +1,110 @@
+body {
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    color: #2d3c49;
+    font-weight: 500;
+}
+.container {
+    height: 100vh;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1rem;
+}
+hr {
+    display: block;
+    border-top: 2px solid #7d97ad;
+    border-bottom: 2px solid #7d97ad;
+}
+.header-logo {
+    display: block;
+    margin: auto;
+    max-width: 30%;
+}
+.header-text {
+    text-transform: uppercase;
+    text-align: center;
+}
+.header-title {
+    font-size: 2rem;
+}
+.text-thin {
+    font-weight: 200;
+}
+.text-thick {
+    font-weight: 700;
+}
+.text-muted {
+    color: #7d97ad;
+}
+.img-hover {
+	cursor: pointer;
+}
+.project-title {
+    color: lightslategrey;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.project-details {
+    text-align: center;
+}
+.footer-content {
+    background-color: silver;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 08px;
+    text-align: center;
+}
+.modal-text {
+    text-align: justify;
+    font-size: 1rem;
+    padding: 5px;
+}
+/* Media queries to implement responsiveness on different screen sizes */
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    .header-logo { max-width: 90%; margin: 0; }
+    .header-text { text-align: right;}
+    .header-title { font-size: 2rem; }
+    .project-title{ font-size: 1.5rem; }
+    h2 { font-size: 2rem; }
+    h4 { font-size: 1.5rem; }
+    .footer-content { font-size: 10px;  letter-spacing: 0.2em; }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    .header-logo { max-width: 70%; margin: 0; }
+    .header-text { text-align: right; }
+    .header-title { font-size: 2.5rem; }
+    .project-title{ font-size: 1.5rem; }
+    h2 { font-size: 2rem; }
+    h4 { font-size: 1.5rem; }
+    .footer-content { font-size: 10px;  letter-spacing: 0.2em; }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .header-logo { max-width: 50%; margin: 0; }
+    .header-text { text-align: right; }
+    .header-title { font-size: 3rem; }
+    .project-title{ font-size: 1.5rem; }
+    h2 { font-size: 2.5rem; }
+    h4 { font-size: 2rem; }
+    .footer-content { font-size: 12px;  letter-spacing: 0.2em; }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {
+    .header-logo { max-width: 30%; margin: 0; }
+    .header-text { text-align: right; }
+    .header-title { font-size: 3rem; }
+    .project-title{ font-size: 1.5rem; }
+    h2 { font-size: 2.5rem; }
+    h4 { font-size: 2rem; }
+    .footer-content { font-size: 12px;  letter-spacing: 0.2em; }
+}
